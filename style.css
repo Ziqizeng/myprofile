@@ -1,0 +1,77 @@
+/* colors and font */
+body {
+   background-color: #ffe3ed;
+   color: #d8b5b5;
+   font-family: 'Lacquer', sans-serif;
+   font-weight: 1000;
+   font-size: 17px;
+}
+
+h1 {
+    color: #ffffdd;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #ffffdd;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h3{
+	font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffdd;
+}
+a:hover {
+  color: green;
+}
+
+/* Custom design with class(99% of your design*/
+
+@media(max-width: 960px){
+ .container{
+   background-color: white;
+ }
+}
+
+.img-circle{
+ border-radius: 50%
+}
+.img-bordered {
+  border: 5px solid brown;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 25px;
+	color:  #d8b5b5;
+}
+
+.list-inline i:hover {
+	font-size: 25px;
+	color: green;
+}
+
+/*Design adjustments using id(1% design remaining)*/
+#introduction p{
+ margin-bottom:20px;
+}
